@@ -6,7 +6,7 @@
 //時脈頻率
 //`define CLOCK_FREQ 50
 
-module _tb;
+module _tb();
   reg ;
   wire ;
 
@@ -18,15 +18,15 @@ module _tb;
     #`CLOCK_FREQ Clk = !Clk;
 	  end
   */
-  
+
 
   initial
     begin
-	    //初始化    
+	    //初始化
       $dumpfile ("Simulation/_tb.vcd");
       $dumpvars;
       $monitor($time, " ");
-      
+
       //模擬
     end
 endmodule

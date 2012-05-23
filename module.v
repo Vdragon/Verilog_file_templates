@@ -6,5 +6,4 @@
 module ();
   output
   input
-
 endmodule
