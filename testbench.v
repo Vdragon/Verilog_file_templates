@@ -1,8 +1,9 @@
-//testbench範本
+//testbench of
 //時間相關設定
 `timescale 1ns / 100ps
 
 //include D.U.T.模組
+`include "Source_code//.v"
 
 //時脈頻率
 //`define CLOCK_FREQ 50
