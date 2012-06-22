@@ -5,7 +5,7 @@
 //include D.U.T.模組
 `include "Source_code//.v"
 
-//時脈頻率
+//時脈產生器頻率
 //`define CLOCK_FREQ 50
 
 module _tb();
