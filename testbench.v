@@ -5,8 +5,8 @@
 //include D.U.T.模組
 `include "Source_code//.v"
 
-//時脈產生器頻率
-//`define CLOCK_FREQ 50
+//時脈產生器半週期
+//`define CLOCK_PERIOD_HALF 10
 
 module _tb();
 //宣告port類型
@@ -17,7 +17,7 @@ module _tb();
 
   /* 時脈產生器
   always begin
-    #`CLOCK_FREQ Clk = !Clk;
+    #`CLOCK_PERIOD_HALF Clk = !Clk;
 	end
   */
 
