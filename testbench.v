@@ -25,7 +25,8 @@ module _tb();
 		//初始化
 		$dumpfile ("Simulation/_tb.vcd");
 		$dumpvars;
-		$monitor($time, " ");
+		$display("時間\t");
+		$monitor("%d\t", $time);
 
 		//模擬
 	end
